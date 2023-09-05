@@ -1,6 +1,7 @@
 void main()
 {
-  //printing cyber goddess
-  print("Welcome to cyber goddess,Please like,comment & Subscribe");
-  print(23);
+  int a=10;
+  int b=30;
+  int c=a+b;
+  print(c);
 }
