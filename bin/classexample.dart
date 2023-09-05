@@ -8,7 +8,7 @@ class MyData{
 }
 
 void main(){
-  //object creation
+  //object creations
   MyData stud1=MyData();
   print("Student Details");
   print("name=${stud1.name}");//calling instance variable
