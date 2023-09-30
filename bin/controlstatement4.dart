@@ -1,6 +1,7 @@
 enum size{
   xs,
-  xxl
+  xxl,
+  m
 }
 
 void main(){
