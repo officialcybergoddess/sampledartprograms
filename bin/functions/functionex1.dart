@@ -6,6 +6,8 @@ fun2(1,2);
 fun3("nimisha",age:22,location: "caliut");
 fun4("flutter", mark: 20);
 fun5("flutter");
+fun6(30,19,4);
+show();
 }
 
 //default function
@@ -49,9 +51,16 @@ void fun5(String course,{String college="CyberGoddess"}){
   print("course: $course ,college: $college");
 }
 
+//4.optional positional parameterized function
+//can't able to use required
+void fun6(int a,[int? b, int? c]){
+print("this is optional positional parameterized function");
+print("$a  $b  $c");
+}
 
-
-
+//lambda or arrow function
+//used to execute single statement
+void show()=> print("this is lambda function");
 
 
 
