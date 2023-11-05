@@ -11,5 +11,5 @@ class B extends A{
 }
 void main(){
   //constructor will be evoked when we create object
-  var obj=B();
+  var obj=B('hi');
 }
